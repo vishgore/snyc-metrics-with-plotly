@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 
 # Replace with your Snyk organization ID and API token
-org_id = "62c44a6f-c094-453a-9f52-af20f492d9ed"
-api_token = "0158637a-776c-432d-8557-9392a10ee772"
+org_id = "<org_id>"
+api_token = "<api_token>"
 
 def flatten_dict(data):
     """
