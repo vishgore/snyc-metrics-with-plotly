@@ -1,9 +1,10 @@
-import requests
+import os, requests
 import pandas as pd
 
-# Replace with your Snyk organization ID and API token
-org_id = "<org_id>"
-api_token = "<api_token>"
+# Get org_id and api_token from environment variables
+org_id = os.getenv("SNYK_ORG_ID")
+api_token = os.getenv("SNYK_API_TOKEN")
+
 
 def flatten_dict(data):
     """
